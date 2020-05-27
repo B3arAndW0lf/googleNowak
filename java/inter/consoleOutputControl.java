@@ -1,0 +1,1 @@
+package inter;import java.io.IOException;import java.util.ArrayList;public interface consoleOutputControl {    void showHeadDescription();    void showAddDescription();    ArrayList<String> showDbContent() throws IOException;    void showMainDeleteDescription();    void showShopMainMenu();}

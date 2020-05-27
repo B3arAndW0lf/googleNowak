@@ -1,0 +1,1 @@
+package inter;import products.Product;import java.io.IOException;public interface productControl {    void appendProduct(Product vegetable);    void deleteProduct() throws IOException;}
